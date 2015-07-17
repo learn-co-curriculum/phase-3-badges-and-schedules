@@ -90,7 +90,7 @@ def printer(attendees)
   end
 end
 ```
-This method with output the following:
+This method will output the following:
 
 ```ruby
 Hello, my name is Edsger.
