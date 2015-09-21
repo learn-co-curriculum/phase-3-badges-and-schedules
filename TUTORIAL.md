@@ -1,11 +1,5 @@
 # Badges and Schedules
 
-## Objectives
-
-1. Utilize iteration
-2. Define methods that use iteration and control the return values of those methods
-3. Define methods that call other methods
-
 ## Instructions
 
 In this lab you'll be learning how to iterate through an array and output the results in different ways. Your code will go in the `conference_badges.rb` file and you can run the test suite using the `rspec` command.
