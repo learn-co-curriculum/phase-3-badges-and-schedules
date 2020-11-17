@@ -14,7 +14,7 @@ and you can run the test suite using the `learn test` command.
 ### Create a `badge_maker` method
 
 You're hosting a conference and need to print badges for the speakers. Each
-badge should read: "Hello, my name is _____." Write a `badge_maker` method that,
+badge should read: `"Hello, my name is _____."` Write a `badge_maker` method that,
 when provided a person's name, will create and return this message. E.g.:
 
 ```bash
