@@ -47,11 +47,11 @@ each speaker to a room. Make sure that each room only has one speaker.
   index number of the current iteration using an enumerator method called
   [`each_with_index`](http://ruby-doc.org/core-2.2.2/Enumerable.html#method-i-each_with_index) or a closely related method called [`.with_index`](https://stackoverflow.com/questions/20258086/difference-between-each-with-index-and-each-with-index-in-ruby).
   
-* *Hint*: Remember that the return value of the `each` method is the original
-  array that you are calling it on. What we need to do is iterate through the
-  array containing the list of speakers, create the room assignment strings for
-  each speaker, and return a _new_ array containing the messages at the end of
-  the method. There is an enumerator method that does just that. Google or use
+* *Hint*: Remember that the return value of the `each` (or `each_with_index`)
+  method is the original array that you are calling it on. What we need to do
+  here is iterate through the array containing the list of speakers, create the
+  room assignment strings for each speaker, and return a _new_ array containing
+  the messages. There is an enumerator method that does just that. Google or use
   [Ruby Docs](http://docs.ruby-lang.org/en/2.0.0/Enumerable.html) to find the
   correct method.
 
